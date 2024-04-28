@@ -1,0 +1,66 @@
+/* Reset default margin and padding */
+html, body, h1, h2, h3, h4, h5, h6, p, ul, ol, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set the font family to a modern font */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Apply dark background and light text color */
+body {
+    background-color: #1e1e1e;
+    color: #ffffff;
+}
+
+/* Style links */
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Header styles */
+.header {
+    padding: 20px;
+    background-color: #333333;
+    text-align: center;
+}
+
+/* Navigation menu styles */
+.navbar {
+    background-color: #333333;
+}
+
+.navbar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.navbar li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.navbar li a {
+    color: #ffffff;
+}
+
+/* Main content styles */
+.content {
+    padding: 20px;
+}
+
+/* Footer styles */
+.footer {
+    padding: 20px;
+    background-color: #333333;
+    text-align: center;
+}
+
+/* Additional styles specific to your website's content can be added below */
